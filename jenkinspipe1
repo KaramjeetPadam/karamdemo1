@@ -1,0 +1,24 @@
+pipeline
+{
+    agent any
+    stages 
+    {
+        stage ('scm checkout')
+        {
+            Step
+            { git 'https://github.com/KaramjeetPadam/karamdemo1.git' }
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+    }
